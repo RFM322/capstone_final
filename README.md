@@ -52,7 +52,7 @@ Data used for this project comes from the **[Yelp Academic Dataset](https://www.
 
 >**Proposed data architecture as compared to traditional CNNs |** Image representation 
 
-<img src="images/Slide1.jpg" align="center"/>
+<img src="images/Slide1.JPG" align="center"/>
 
 >As shown on the image above, we attempt to achieve this by creating a parameter grid for each business, where: <br><br> - **(a)** the ***y*** axis of the grid relates to distances from the target business. The center of the grid repsents the smallest distance (radius), and it expands north and south as you approach the edges. <br><br> - **(B)** the ***x*** axis represents different business categories. The center of the grid relates to the same business category as the target business, as you approach the edges of the grid the similarity of such categories with the target business decreases. <br><br> - **(c)** the intersect of the ***y*** and ***x*** axis is comprosed of an array of features. Each element of the array (feature) is computed as the difference between the target business's measurement and the average of the surrounding/neighbouring businesses that fit such criteria (distance and category) - *we refer to this computation as "benchmarking"* -.
 
@@ -68,7 +68,7 @@ The area of interest chosen was the "Las Vegas" strip, bounded by the following 
 
 **Image representation of the selected "area of interest" in Las Vegas Strip**
 
-<img src="images/las_Vegas.jpg" width="600" height="500" align="left"/>
+<img src="images/las_Vegas.JPG" width="600" height="500" align="left"/>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
  
