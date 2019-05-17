@@ -59,7 +59,7 @@ Data used for this project comes from the **[Yelp Academic Dataset](https://www.
 Below, an image representation of the specific data architecture used for this project as described above:
 
 **Example 3D tensor for a target business | proposed data architecture**
-<img src="images/example_d3.JPG" width="1000" height="1000" align="center"/>
+<img src="images/example_d3.JPG" align="center"/>
 
 ## Area of interest <a id="aoi"></a>
 For practical purposes we carried out this analysis on a densley populated business area. Running the script over a larger geographical area was beyond the computing capabilities and resources at hand as of the moment of developing this project. 
@@ -70,7 +70,7 @@ The area of interest chosen was the "Las Vegas" strip, bounded by the following 
 
 <img src="images/las_Vegas.jpg" align="center"/>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
  
 Distances were calculated with the Euclidean distance based on UTM for computational efficiency. Due to the size of the area of influence this calculation did not affect significantly the accuracy of distance. Nevertheless, in future iterations it would be reccomended to take into account more accurate distance measurements, speacially as the area of interest increases in size.
 
@@ -83,8 +83,6 @@ The advantage of this approach is to add layers of complexity to the data struct
 
 **Image representation | Model structure**
 <img src="images/Model_pipeline.png" width="600" height="500" align="center"/>
-
-<br>
 
 **[Extract | Final model code]**
 
