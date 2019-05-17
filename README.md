@@ -1,4 +1,4 @@
-<img src="images/generalassembly-open-graph.png" width="100" height="100" align="left"/>
+<img src="images/generalassembly-open-graph.png" align="left"/>
 
 <br>
 <br>
