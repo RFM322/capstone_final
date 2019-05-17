@@ -59,7 +59,7 @@ Data used for this project comes from the **[Yelp Academic Dataset](https://www.
 Below, an image representation of the specific data architecture used for this project as described above:
 
 **Example 3D tensor for a target business | proposed data architecture**
-<img src="images/example_d3.jpg" width="1000" height="1000" align="center"/>
+<img src="images/example_d3.JPG" width="1000" height="1000" align="center"/>
 
 ## Area of interest <a id="aoi"></a>
 For practical purposes we carried out this analysis on a densley populated business area. Running the script over a larger geographical area was beyond the computing capabilities and resources at hand as of the moment of developing this project. 
@@ -68,7 +68,7 @@ The area of interest chosen was the "Las Vegas" strip, bounded by the following 
 
 **Image representation of the selected "area of interest" in Las Vegas Strip**
 
-<img src="images/las_Vegas.JPG" width="600" height="500" align="left"/>
+<img src="images/las_Vegas.jpg" align="center"/>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
  
